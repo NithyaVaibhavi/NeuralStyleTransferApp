@@ -42,6 +42,10 @@ def load_img(path_to_img):
 def home():
     return render_template('home2.html')
 
+@app.route('/home2.html')
+def home2():
+    return render_template('home2.html')
+
 @app.route('/singleStyleTransfer.html')
 def single_style_transfer():
     return render_template('singleStyleTransfer.html')
