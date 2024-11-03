@@ -38,7 +38,7 @@ def load_img(path_to_img):
     return img
 
 # Route for homepage
-@app.route('/home2.html')
+@app.route('/')
 def home():
     return render_template('home2.html')
 
